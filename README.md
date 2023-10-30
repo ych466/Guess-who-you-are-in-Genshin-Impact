@@ -25,7 +25,7 @@ graph LR;
 
 部署后项目的运行流程如下：
 ```mermaid
-flowchart TD;
+graph TD;
    A[拉取用户图片]-->B[图片抠像];
    B[图片抠像]-->C{是否存在人物};
    C -- Yes --> D[使用抠像后图像预测];
