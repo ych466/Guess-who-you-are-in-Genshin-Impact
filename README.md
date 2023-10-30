@@ -127,12 +127,6 @@ if __name__ == '__main__':
 \runs\classify\train\weights\best.pt
 ```
 
-您要可以不进行训练，而直接使用我们训练好的模型
-
-```
-\model\best.pt
-```
-
 之后修改 **run.py** 中的
 
 ```python
