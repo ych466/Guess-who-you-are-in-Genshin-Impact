@@ -8,11 +8,11 @@
 
 欢迎关注作者的b站账号 ：
 
-[ych233]: https://space.bilibili.com/74110886
+[ych233](https://space.bilibili.com/74110886)
 
 也欢迎三连此项目的相关视频：
 
-[相关视频]: https://www.bilibili.com/video/BV1DN4y1d7H
+[相关视频](https://www.bilibili.com/video/BV1DN4y1d7H)
 
 此项目大致可分为如下四步：
 
