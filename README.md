@@ -12,7 +12,7 @@
 
 也欢迎三连此项目的相关视频：
 
-[相关视频](https://www.bilibili.com/video/BV1DN4y1d7H)
+[相关视频](https://b23.tv/oXixLzR)
 
 此项目大致可分为如下四步：
 
