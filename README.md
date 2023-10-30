@@ -21,10 +21,6 @@ graph LR;
     start((开始)) -->|数据抓取| info((数据处理));
     info -->|处理完成| setCache((模型训练));
     setCache -->|训练完成| end((模型部署));
-
-start->info->setCache->end
-
-
 ```
 
 部署后项目的运行流程如下：
