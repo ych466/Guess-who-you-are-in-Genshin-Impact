@@ -16,7 +16,7 @@
 
 此项目大致可分为如下四步：
 
-```flow
+```mermaid
 start=>start: 数据抓取
 info=>operation: 数据处理
 setCache=>operation: 模型训练
@@ -28,7 +28,7 @@ start->info->setCache->end
 ```
 
 部署后项目的运行流程如下：
-```flow
+```mermaid
 start=>start: 拉取用户图片
 cache=>operation: 图片抠像
 cached=>condition: 是否存在人物？
