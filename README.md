@@ -17,10 +17,10 @@
 此项目大致可分为如下四步：
 
 ```mermaid
-start=>start: 数据抓取
-info=>operation: 数据处理
-setCache=>operation: 模型训练
-end=>end: 模型部署
+graph LR;
+    start((开始)) -->|数据抓取| info((数据处理));
+    info -->|处理完成| setCache((模型训练));
+    setCache -->|训练完成| end((模型部署));
 
 start->info->setCache->end
 
