@@ -25,24 +25,15 @@ graph LR;
 
 部署后项目的运行流程如下：
 ```mermaid
-start=>start: 拉取用户图片
-cache=>operation: 图片抠像
-cached=>condition: 是否存在人物？
-sendMq=>operation: 使用抠像后图像预测
-cached2=>condition: 置信度是否大于0.65？
-info=>operation: 使用未抠像图像预测
-setCache=>operation: 保存结果
-end=>end: 上传结果
-
-start->cache->cached
-cached(yes)->sendMq->cached2
-cached(no)->info
-cached2(yes)->setCache
-cached2(no)->info
-info->setCache
-setCache->end
-
-
+flowchart TD;
+   A[拉取用户图片]-->B[图片抠像];
+   B[图片抠像]-->C{是否存在人物};
+   C -- Yes --> D[使用抠像后图像预测];
+   C -- No --> E[使用未抠像图像预测];
+   D-->F{准确率是否大于0.65};
+   F--No-->E;
+   F--Yes-->G[上传结果];
+   E-->G;
 ```
 
 - ## 图片抓取
