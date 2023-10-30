@@ -124,7 +124,7 @@ if __name__ == '__main__':
 您训练完成的模型将放在 
 
 ```
-\runs\classify\train\best.pt
+\runs\classify\train\weights\best.pt
 ```
 
 您要可以不进行训练，而直接使用我们训练好的模型
